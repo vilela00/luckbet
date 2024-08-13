@@ -1,0 +1,184 @@
+/*FONTE ROBOTO GOOGLE*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*RESET CONTAINER FLUID*/
+
+.body_index .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+/*ESTILO*/
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #ffd71d;
+    box-shadow: 
+    rgba(0,0,0,0.1) 0 2px 2px,     
+    rgba(0,0,0,0.1) 0 4px 4px;
+}
+
+.logo img {
+    width: 180px;
+    margin-left: 8px;
+}
+
+.body_index .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    width: 100%;
+    max-width: 500px
+}
+
+.box_login {
+    width: 85%;
+    height: auto;
+}
+
+.box_info {
+    height: auto;
+    border: solid rgb(212, 212, 212) 0.1px;
+    border-radius: 5px;
+    box-shadow: 
+    rgba(0,0,0,0.1) 0 2px 2px,     
+    rgba(0,0,0,0.1) 0 4px 4px,
+    rgba(0,0,0,0.1) 0 8px 8px,
+    rgba(0,0,0,0.1) 0 16px 16px,
+    rgba(0,0,0,0.1) 0 32px 32px;
+    margin-top: 8px;
+}
+
+.box_login .user_selector {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dddce49f;
+    border-radius: 5px;
+    box-shadow: 
+    rgba(0,0,0,0.1) 0 2px 2px,     
+    rgba(0,0,0,0.1) 0 4px 4px,
+    rgba(0,0,0,0.1) 0 8px 8px;
+    width: 180px;
+    height: 45px;
+}
+
+.user_selector .btn_afiliado {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    width: 47%;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.user_selector .btn_gestor {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    width: 47%;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.user_selector .btn_afiliado, .user_selector .btn_gestor:checked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.user_selector .btn_gestor:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.info_login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.info_login p {
+    color: #7c7c7c;
+    margin-bottom: 18px;
+}
+
+.user {
+    margin-top: 2px;
+}
+
+.box_user, .box_password {
+    opacity: 0.8;
+    font-size: 12px;
+    height: 30px;
+    width: 92%;
+    border-radius: 5px;
+    border: 0.1px solid rgb(216, 216, 216);
+    margin-top: 5px;
+    padding-left: 8px;
+}
+
+.password {
+    margin-top: 16px;
+}
+
+.stay_loged {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn_entrar {
+    display: flex;
+    justify-content: center;
+    margin-top: 29px;
+    margin-bottom: 40px;
+}
+
+.btn_entrar button {
+    width: 140px;
+}
+
+.box_rodape {
+    margin-top: 50px;
+    text-align: center;
+    width: 95%;
+}
+
+.box_rodape button {
+    width: 140px;
+    margin-top: 20px;
+}
+
+.version {
+    margin-top: 40px;
+}
+
+.version p {
+    text-decoration: underline;
+}
