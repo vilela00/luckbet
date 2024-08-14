@@ -16,6 +16,7 @@
 
 /*ESTILO*/
 
+/*Header*/
 .header {
     display: flex;
     align-items: center;
@@ -31,6 +32,8 @@
     width: 180px;
     margin-left: 8px;
 }
+
+/*-*/
 
 .body_index .container-fluid {
     display: flex;
@@ -185,6 +188,7 @@
     text-decoration: underline;
 }
 
+/*Footer*/
 .footer {
     position: fixed;
     bottom: 0;
@@ -204,3 +208,5 @@
     font-style: italic;
     padding-top: 5px;
 }
+
+/*-*/
