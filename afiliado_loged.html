@@ -59,7 +59,7 @@
                         <div class="botoes">
                             <button type="button" class="btn btn-dark btn_nova_operacao">Nova Operação</button>
                             <button type="button" class="btn btn-dark btn_dashboard">Dashboard</button>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
                 <div class="visao_geral">
@@ -191,6 +191,120 @@
                                     </div>
                                 </div>
                                 <div class="btn_fill_card">
+                                    <button type="button" class="btn btn-dark"  data-bs-toggle="modal" data-bs-target="#modalOperacao">Preencher</button>
+                                </div>
+
+                                <!--Modal Operacao -->
+                                <div class="modal fade" id="modalOperacao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Preencher dados da Operação</h1>
+                                        <input type="date" id="date" autocomplete="on">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Alcance:</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Cliques:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Leads Gerenciador:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Cadastros:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Entrada do Grupo:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Deposit Amount:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Comissão Luckbet:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                        </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        <button type="button" class="btn btn-dark">Gravar Dados</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_select">
+                            <div class="form-check select">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            </div>
+                            <div class="texto_select">
+                                <p>Selecionar Operação</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_">
+                        <div class="head_card">
+                            <div class="head_texto">
+                                <div class="operacao">
+                                    <h6>Caio Tips</h6>
+                                </div>
+                                <div class="status">
+                                    <h6>Status: Ativa</h6>
+                                </div>
+                                <div class="fonte">
+                                    <h6>Fonte: CC</h6>
+                                </div>
+                            </div>
+                            <div class="head_kpi">
+                                <div class="kpi">
+                                    <p>FTD</p>
+                                    <div class="circulo_vermelho"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPA</p>
+                                    <div class="circulo_verde"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPC</p>
+                                    <div class="circulo_amarelo"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPM</p>
+                                    <div class="circulo_amarelo"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_card">
+                            <div class="img_card">
+                                <img src="" alt="">
+                            </div>
+                            <div class="container_info_card">
+                                <div class="info_card">
+                                    <div class="texto_info">
+                                        <h6>Gasto Diário</h6>
+                                        <p>R$ 1.098,56</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h6>Um Título Aqui</h6>
+                                        <p>Alguma informação relevante aqui</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h6>Um Título Aqui</h6>
+                                        <p>Alguma informação relevante aqui</p>
+                                    </div>
+                                </div>
+                                <div class="btn_fill_card">
                                     <button type="button" class="btn btn-dark">Preencher</button>
                                 </div>
                             </div>
@@ -205,10 +319,267 @@
                         </div>
                     </div>
                     <div class="card_">
+                        <div class="head_card">
+                            <div class="head_texto">
+                                <div class="operacao">
+                                    <h6>Caio Tips</h6>
+                                </div>
+                                <div class="status">
+                                    <h6>Status: Ativa</h6>
+                                </div>
+                                <div class="fonte">
+                                    <h6>Fonte: CC</h6>
+                                </div>
+                            </div>
+                            <div class="head_kpi">
+                                <div class="kpi">
+                                    <p>FTD</p>
+                                    <div class="circulo_vermelho"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPA</p>
+                                    <div class="circulo_verde"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPC</p>
+                                    <div class="circulo_amarelo"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPM</p>
+                                    <div class="circulo_amarelo"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_card">
+                            <div class="img_card">
+                                <img src="" alt="">
+                            </div>
+                            <div class="container_info_card">
+                                <div class="info_card">
+                                    <div class="texto_info">
+                                        <h6>Gasto Diário</h6>
+                                        <p>R$ 1.098,56</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h6>Um Título Aqui</h6>
+                                        <p>Alguma informação relevante aqui</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h6>Um Título Aqui</h6>
+                                        <p>Alguma informação relevante aqui</p>
+                                    </div>
+                                </div>
+                                <div class="btn_fill_card">
+                                    <button type="button" class="btn btn-dark">Preencher</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_select">
+                            <div class="form-check select">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            </div>
+                            <div class="texto_select">
+                                <p>Selecionar Operação</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="container_cards">
+                    <div class="card_">
+                        <div class="head_card">
+                            <div class="head_texto">
+                                <div class="operacao">
+                                    <h6>Caio Tips</h6>
+                                </div>
+                                <div class="status">
+                                    <h6>Status: Ativa</h6>
+                                </div>
+                                <div class="fonte">
+                                    <h6>Fonte: CC</h6>
+                                </div>
+                            </div>
+                            <div class="head_kpi">
+                                <div class="kpi">
+                                    <p>FTD</p>
+                                    <div class="circulo_vermelho"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPA</p>
+                                    <div class="circulo_verde"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPC</p>
+                                    <div class="circulo_amarelo"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPM</p>
+                                    <div class="circulo_amarelo"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_card">
+                            <div class="img_card">
+                                <img src="" alt="">
+                            </div>
+                            <div class="container_info_card">
+                                <div class="info_card">
+                                    <div class="texto_info">
+                                        <h6>Gasto Diário</h6>
+                                        <p>R$ 1.098,56</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h6>Um Título Aqui</h6>
+                                        <p>Alguma informação relevante aqui</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h6>Um Título Aqui</h6>
+                                        <p>Alguma informação relevante aqui</p>
+                                    </div>
+                                </div>
+                                <div class="btn_fill_card">
+                                    <button type="button" class="btn btn-dark">Preencher</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_select">
+                            <div class="form-check select">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            </div>
+                            <div class="texto_select">
+                                <p>Selecionar Operação</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="card_">
-
+                        <div class="head_card">
+                            <div class="head_texto">
+                                <div class="operacao">
+                                    <h6>Caio Tips</h6>
+                                </div>
+                                <div class="status">
+                                    <h6>Status: Ativa</h6>
+                                </div>
+                                <div class="fonte">
+                                    <h6>Fonte: CC</h6>
+                                </div>
+                            </div>
+                            <div class="head_kpi">
+                                <div class="kpi">
+                                    <p>FTD</p>
+                                    <div class="circulo_vermelho"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPA</p>
+                                    <div class="circulo_verde"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPC</p>
+                                    <div class="circulo_amarelo"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPM</p>
+                                    <div class="circulo_amarelo"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_card">
+                            <div class="img_card">
+                                <img src="" alt="">
+                            </div>
+                            <div class="container_info_card">
+                                <div class="info_card">
+                                    <div class="texto_info">
+                                        <h6>Gasto Diário</h6>
+                                        <p>R$ 1.098,56</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h6>Um Título Aqui</h6>
+                                        <p>Alguma informação relevante aqui</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h6>Um Título Aqui</h6>
+                                        <p>Alguma informação relevante aqui</p>
+                                    </div>
+                                </div>
+                                <div class="btn_fill_card">
+                                    <button type="button" class="btn btn-dark">Preencher</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_select">
+                            <div class="form-check select">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            </div>
+                            <div class="texto_select">
+                                <p>Selecionar Operação</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_">
+                        <div class="head_card">
+                            <div class="head_texto">
+                                <div class="operacao">
+                                    <h6>Caio Tips</h6>
+                                </div>
+                                <div class="status">
+                                    <h6>Status: Ativa</h6>
+                                </div>
+                                <div class="fonte">
+                                    <h6>Fonte: CC</h6>
+                                </div>
+                            </div>
+                            <div class="head_kpi">
+                                <div class="kpi">
+                                    <p>FTD</p>
+                                    <div class="circulo_vermelho"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPA</p>
+                                    <div class="circulo_verde"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPC</p>
+                                    <div class="circulo_amarelo"></div>
+                                </div>
+                                <div class="kpi">
+                                    <p>CPM</p>
+                                    <div class="circulo_amarelo"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_card">
+                            <div class="img_card">
+                                <img src="" alt="">
+                            </div>
+                            <div class="container_info_card">
+                                <div class="info_card">
+                                    <div class="texto_info">
+                                        <h6>Gasto Diário</h6>
+                                        <p>R$ 1.098,56</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h6>Um Título Aqui</h6>
+                                        <p>Alguma informação relevante aqui</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h6>Um Título Aqui</h6>
+                                        <p>Alguma informação relevante aqui</p>
+                                    </div>
+                                </div>
+                                <div class="btn_fill_card">
+                                    <button type="button" class="btn btn-dark">Preencher</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_select">
+                            <div class="form-check select">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            </div>
+                            <div class="texto_select">
+                                <p>Selecionar Operação</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

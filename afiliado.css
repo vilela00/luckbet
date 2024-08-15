@@ -232,9 +232,14 @@
 }
 
 .section_cards {
-
-    margin-top: 40px;
     width: 95%;
+    margin-bottom: 120px;
+}
+
+.container_cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
 }
 
 .card_ {
@@ -376,6 +381,14 @@
     font-size: 14px;
     margin: 0;
     font-style: italic;
+}
+
+.modal-dialog {
+    min-width: 650px !important;
+}
+
+.modal-header {
+    gap: 80px;
 }
 
 /*Footer*/
