@@ -32,11 +32,19 @@
     margin-left: 8px;
 }
 
+.header .seletor_tema {
+    margin: 0 8px 0 0 !important;
+}
+
 .icon_header {
     display: flex;
     gap: 2px;
     margin-right: 2px;
     align-items: center;
+}
+
+.user i, .gear i, .bell i, .question i, .bracket i {
+    color: #000;
 }
 
 .user {
@@ -77,6 +85,56 @@
 
 /*-*/
 
+/* BOTÃO SELETOR DARK E LIGHT */
+
+.checkbox1 {
+    opacity: 0;
+    position: absolute;
+    display: none !important;
+}
+
+.checkbox-label1 {
+    background-color: #111;
+    border: #e4e4e4 solid 0.1px;
+    width: 50px !important;
+    height: 26px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-moon {
+    color: #bebebe;
+}
+
+.fa-sun {
+    color: #f39c12;
+}
+
+.checkbox-label1 .ball {
+    cursor: pointer;
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 1px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+.checkbox1:checked + .checkbox-label1 .ball {
+    transform: translateX(24px);
+}
+
+#checkbox1 {
+    display: none;
+}
+
+/* FIM DO BOTÃO */
+
 /*Estilo*/
 .body_afiliado .container-fluid {
     display: flex;
@@ -115,6 +173,7 @@
     border-radius: 30px;
     background-color: #eeeeee;
     font-size: 24px;
+    color: #111;
 }
 
 .user_main .info_update p {
@@ -268,7 +327,7 @@
     align-items: center;
     width: 110px;
     height: 35px;
-    background-color: #F1F5F9;
+    border: #d3dae0 solid 0.1px;
     border-radius: 5px;
 }
 
@@ -397,7 +456,7 @@
     bottom: 0;
     width: 100%;
     height: 30px;
-    background-color: #000;
+    background-color: #121212;
 }
 
 .copyright {
